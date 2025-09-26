@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello
-          image: IMAGE_PLACEHOLDER
+          image: felipemgilioli/hello-app:fd9eec9825fe64a283aabb600c8df12e5c03fafb
           ports:
             - containerPort: 8000
